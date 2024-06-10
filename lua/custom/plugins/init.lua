@@ -3,6 +3,7 @@
 --
 -- See the kickstart.nvim README for more information
 return {
+  -- allows for vim motions to nav between tmux panes
   'christoomey/vim-tmux-navigator',
-  lazy = false,
+  'theprimeagen/vim-be-good',
 }
